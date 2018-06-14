@@ -1,6 +1,6 @@
 $(function(){
 
-    //15ҳ��ת
+    //15页跳转
     $('#xinrenll15').click(function(){
         $('.foor-box2-img2').addClass("zzz").removeClass('d-none');
         setTimeout(function(){

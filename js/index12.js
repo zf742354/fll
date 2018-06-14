@@ -1,6 +1,6 @@
 $(function(){
 
-    //µÚ12Ò³
+    //ç¬¬12é¡µ
     var zzbds = /(^1[3|4|5|7|8]\d{9}$)|(^09\d{8}$)/;
     var time;
     var num= 6;
@@ -14,32 +14,39 @@ $(function(){
                 $('.ljjh').attr('disabled',true)
             }
         }else{
-            //¼¤»î°´Å¥ÖÃ»Ò
+            //æ¿€æ´»æŒ‰é’®ç½®ç°
             $('.hqyzm').attr('disabled',true);
             $(".ljjh").attr("disabled",true);
         }
 
     });
 
-    //»ñÈ¡ÊÖ»úÑéÖ¤Âë
+    //è·å–æ‰‹æœºéªŒè¯ç 
     $(".hqyzm").click(function(){
-        //Ëø¶¨ºÅÂëÊäÈë¿ò
+        //é”å®šå·ç è¾“å…¥æ¡†
+        $('.icon-msnui-lock').removeClass('d-none');
         $('#ddd').attr('disabled',true);
         num--;
-        $('.hqyzm').text("ÔÙ´Î»ñÈ¡"+num+'s').attr('disabled',true);
-        //¿ªÊ¼µ¹¼ÆÊ±
+        $('.hqyzm').text(num+'så'+"å¯å†æ¬¡è·å–").attr('disabled',true);
+        //å¼€å§‹å€’è®¡æ—¶
         time=setInterval(function(){
-            //¼ÆÊ±µ½0Ê±
+            //è®¡æ—¶åˆ°0æ—¶
             num--;
             if(num<=0){
-                //Í£Ö¹¼ÆÊ±
+                //è§£é”æç¤º
+                $('.icon-msnui-lock').addClass('d-none');
+                $('.icon-jiesuo').removeClass('d-none');
+                setTimeout(function(){
+                    $('.icon-jiesuo').addClass('d-none')
+                },300);
+                //åœæ­¢è®¡æ—¶
                 clearInterval(time);
-                //ÊäÈëÊÖ»úºÅÂë¸ßÁÁ£¬¸ü¸ÄÑéÖ¤Âë°´Å¥ÄÚÎÄ×Ö
-                $('.hqyzm').text('»ñÈ¡ÑéÖ¤Âë').attr("disabled",false);
+                //è¾“å…¥æ‰‹æœºå·ç é«˜äº®ï¼Œæ›´æ”¹éªŒè¯ç æŒ‰é’®å†…æ–‡å­—
+                $('.hqyzm').text('è·å–éªŒè¯ç ').attr("disabled",false);
                 $('#ddd').attr('disabled',false);
                 num = 6;
             }else{
-                $('.hqyzm').text("ÔÙ´Î»ñÈ¡"+num+'s').attr('disabled',true);
+                $('.hqyzm').text(num+'så'+"å¯å†æ¬¡è·å–").attr('disabled',true);
             }
         },1000);
 
@@ -60,22 +67,22 @@ $(function(){
 
     });
 
-//12Ò³Ìø×ª
+//12é¡µè·³è½¬
 
-    //µ¯³öµ¯´°
+    //å¼¹å‡ºå¼¹çª—
     $("#ljjh2").click(function(){
         $('.tc').removeClass('d-none');
         $('.foot-box2-img2').addClass('zzz').removeClass('d-none');
     });
 
-    //¹Ø±Õµ¯´°
+    //å…³é—­å¼¹çª—
     $('.x').click(function(){
         $('.tc').addClass('d-none');
         $('.foot-box2-img2').removeClass('zzz').addClass('d-none');
 
     });
 
-    //Ìø×ªÒ³Ãæ
+    //è·³è½¬é¡µé¢
     $('.ewm').click(function(){
        window.location.href='../html/index15.html';
     });

@@ -14,7 +14,6 @@ $(function(){
             }
         }else{
             //激活按钮置灰
-
             $('.hqyzm').attr('disabled',true);
             $(".ljjh").attr("disabled",true);
         }
@@ -31,16 +30,18 @@ $(function(){
             //计时到0时
             num--;
             if(num<=0){
-                //停止计时
-                clearInterval(time);
-                //输入手机号码高亮，更改验证码按钮内文字
+                //解锁提示
                 $('.icon-msnui-lock').addClass('d-none');
                 $('.icon-jiesuo').removeClass('d-none');
-                $('.hqyzm').text('获取验证码').attr("disabled",false);
-                $('#ddd').attr('disabled',false);
                 setTimeout(function(){
                     $('.icon-jiesuo').addClass('d-none')
                 },300);
+                //停止计时
+                clearInterval(time);
+                //输入手机号码高亮，更改验证码按钮内文字
+                $('.hqyzm').text('获取验证码').attr("disabled",false);
+                $('#ddd').attr('disabled',false);
+
                 num = 6;
             }else{
                 $('.hqyzm').text(num+'s后'+"可再次获取").attr('disabled',true);

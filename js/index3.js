@@ -1,6 +1,6 @@
 $(function(){
 
-    //µÚÈıÒ³Ãæ
+    //ç¬¬ä¸‰é¡µé¢
     $(".index").click(function(){
         setTimeout(function(){
             window.location.href="../html/index4.html";
@@ -8,12 +8,12 @@ $(function(){
 
     });
 
-    //ÏÔÊ¾µ¯´°
+    //æ˜¾ç¤ºå¼¹çª—
     $('#lijizhuanfa').click(function(){
         $(".tc").removeClass('d-none');
         $('.foot-box2-img2').addClass('zzz').removeClass('d-none');
     });
-    //¹Ø±Õµ¯´°
+    //å…³é—­å¼¹çª—
     $('.x').click(function(){
         $('.tc').addClass('d-none');
         $('.foot-box2-img2').removeClass('zzz').addClass('d-none');

@@ -84,6 +84,7 @@ scale(.9);
 .foor-box2-img2{
     height: .29rem;
     width: .29rem;
+    margin-right: .1rem;
 }
 @keyframes zzz{
     from{

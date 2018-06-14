@@ -1,5 +1,5 @@
 $(function(){
-    //第二页面跳转
+    //绗簩椤甸潰璺宠浆
     $('.qjh').click(function(){
         setTimeout(function(){
             window.location.href="../html/index12.html";

@@ -1,5 +1,5 @@
 $(function(){
-    //µÚ6Ò³
+    //ç¬¬6é¡µ
     $('#xinrenll2').click(function(){
         $('.foot-box2-img2').addClass("zzz").removeClass('d-none');
         setTimeout(function(){
