@@ -1,4 +1,10 @@
 $(function(){
+    setTimeout(function(){
+        $('.diyiye').removeClass('d-none');
+        $('.icon-cha').removeClass('d-none');
+    },5000);
+
+
     //0页面跳转
     $('.icon-cha').click(function(){
         $('.diyiye').addClass('d-none');
