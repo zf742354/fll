@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background: palevioletred;
+    padding: .2rem;
+}
+.box input{
+    width: 100%;
+    height: .9rem;
+    border-radius: 10px;
+    font-size: .28rem;
+    padding-left: .2rem;
+}
+.box input:focus{
+    border: 2px solid skyblue;
+}
+
+.phone{
+    margin:.2rem 0;
+}
+.yzm{
+    flex: 1;
+    -webkit-flex: 1;
+    margin-right: .2rem;
+}
+.hq{
+    height: .9rem;
+    border-radius: 10px;
+    font-size: .28rem;
+    padding: .2rem;
+    background-color: orange;
+}
+.hq:active{
+    transform: scale(.95);
+    -webkit-transform:  scale(.95);
+}
+.hq:disabled{
+    background-color: #9d9d9d;
+    color: #ccc;
+}
+
+.dl{
+    height: .9rem;
+    width: 100%;
+    border-radius: 10px;
+    font-size: .28rem;
+    padding: .2rem;
+    background-color: orange;
+}
+
+.dl:active{
+    transform: scale(.98);
+    -webkit-transform:  scale(.98);
+}
+.dl:disabled{
+    background-color: #9d9d9d;
+    color: #ccc;
+}
+
+
+
+
+.box2{
+    height: 40vh;
+    width: 100%;
+    background-color: pink;
+}
+
+@keyframes zzz{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+.zzz{
+    animation-name:zzz;
+    -webkit-animation-duration: 2000ms;
+    -moz-animation-duration: 2000ms;
+    -o-animation-duration: 2000ms;
+    animation-duration: 2000ms;
+    animation-timing-function:linear;
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    -o-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+    animation-iteration-count:infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

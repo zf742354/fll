@@ -1,0 +1,106 @@
+body{
+    background: #f8f8f8;
+}
+.d-none{
+  display: none;
+}
+.floor1{
+    width: 100vw;
+    height: .8rem;
+    background-color: white;
+    padding: 0 .2rem;
+}
+.floor1>img{
+    width: 4.76rem;
+}
+.icon-cha{
+    position: fixed;
+    top: .25rem;
+    right: .25rem;
+    color: #ccc;
+}
+.floor2{
+    height: 2.24rem;
+    background-color: #469dff;
+    padding: 0 .2rem;
+}
+.floor2-box{
+    height: .9rem;
+    width: .9rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: .2rem;
+}
+.icon-unie611{
+    color: #469dff;
+    display: block;
+    font-size: .6rem;
+}
+
+.floor2-box2-p{
+    font-size: .32rem;
+    color: white;
+}
+.floor2-box2-p2{
+    font-size: .26rem;
+    color: white;
+}
+.floor2>.icon-you{
+    color: white;
+}
+
+
+.icon-icon--{
+    color: #58a0d0;
+}
+
+.floor3{
+    margin-top: .16rem;
+    border-top: 1px solid #ececec;
+}
+
+
+
+.floor3>div>div>span{
+    font-size: .28rem;
+    color: #353535;
+}
+.floor3>div>div>i{
+    margin-right: .2rem;
+    font-size: .3rem;
+}
+#shezhi{
+    font-size: .4rem;
+    margin-right: .15rem;
+    margin-left: -.05rem;
+}
+
+
+.floor3>div{
+    padding: 0 .2rem;
+    line-height: .98rem;
+    border-bottom: 1px solid #ececec;
+    background: white;
+}
+.icon-you{
+    color: #ccc;
+}
+
+.icon-wenjian{
+    color: #ff9920;
+}
+
+
+.icon-huiyuanlibao{
+    color: #0099cc;
+
+}
+.icon-icon--1{
+    color:#88c846;
+}
+.icon-shezhi{
+    color: #768393;
+}
+.icon-gouwuche{
+    color: #88c846;
+}

@@ -1,0 +1,9 @@
+$(function(){
+    //µÚÎåÒ³
+    $('#xinrenll').click(function(){
+        $('.foor-box2-img2').addClass("zzz").removeClass('d-none');
+        setTimeout(function(){
+            window.location.href="../html/index7.html";
+        },2000);
+    });
+});

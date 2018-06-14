@@ -1,0 +1,84 @@
+body{
+    background: #f8f8f8;
+}
+.floor{
+    height: .88rem;
+}
+.florr-span{
+    font-size: .28rem;
+    color: #232323;
+    margin-left: .2rem;
+}
+
+.florr-p{
+    display: inline;
+    font-size: .28rem;
+    color: #fe8828;
+}
+
+
+.floor2{
+    padding:.2rem;
+    border: 1px solid #e3eaf0;
+    background: white;
+}
+
+.floor2-left-box{
+    height: 1.04rem;
+    width: 1.04rem;
+    border-radius: 50%;
+    background: black;
+    margin-right: .2rem;
+}
+.toux1{
+    background: url(../image/toux1.jpg);
+    height: 1.24rem;
+    width: 1.24rem;
+    background-size: cover;
+    margin-left: -.1rem;
+}
+.toux2{
+    background: url(../image/toux2.jpg);
+    height: 1.24rem;
+    width: 1.24rem;
+    background-size: cover;
+    margin-left: -.05rem;
+    margin-top: -.05rem;
+}
+
+
+.floor2-left-box2-p{
+    font-size: .3rem;
+    color: #232323;
+}
+.floor2-left-box2-p2{
+    font-size: .26rem;
+    color: #999;
+}
+
+
+.floor2-right-p{
+    font-size: .36rem;
+    color: #232323;
+}
+.floor2-right-p2{
+    font-size: .26rem;
+    color: #469dff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
