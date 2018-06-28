@@ -8,10 +8,10 @@ p{
     position: relative;
 }
 .bj-box{
-    position: fixed;
+    position: absolute;
     top: .2rem;
     left: .2rem;
-}
+}ee
 .bj-box>span{
     font-size: .26rem;
     color: white;

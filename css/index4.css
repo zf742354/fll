@@ -27,7 +27,7 @@
     position: relative;
 }
 .bj-box{
-    position: fixed;
+    position: absolute;
     top: .2rem;
     left: .2rem;
 }
