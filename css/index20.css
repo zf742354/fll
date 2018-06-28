@@ -7,14 +7,16 @@ p{
     background: url(../image/hbbj.jpg);
     position: relative;
 }
+
 .bj-box{
     position: absolute;
     top: .2rem;
     left: .2rem;
+}
+.bj-box>span{
     font-size: .26rem;
     color: white;
-}ee
-
+}
 .zgyd{
     height: .33rem;
     width: .33rem;
