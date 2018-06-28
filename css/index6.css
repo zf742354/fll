@@ -157,8 +157,16 @@
 }
 
 
-
-
-
-
-
+.dixian{
+    padding-top: 2rem;
+    width: 100vw;
+    font-size: .2rem;
+    color: rgba(185,216,251,.43);
+    margin-bottom: .2rem;
+}
+.dixian>div{
+    height: 1px;
+    width: 38vw;
+    background-color: rgba(185,216,251,.43);
+    margin: 0 .2rem;
+}
