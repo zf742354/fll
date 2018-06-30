@@ -148,8 +148,6 @@ p{
 /*¶þÎ¬Âë¶¯Ì¬*/
 
 .dixian{
-    position: fixed;
-    bottom: .2rem;
     color: rgba(185,216,251,.43);
     font-size: .2rem;
     width: 90vw;
