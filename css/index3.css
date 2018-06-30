@@ -107,6 +107,7 @@
     font-size: .32rem;
     color: white;
     position: relative;
+    margin-bottom: .2rem;
 }
 .floor3-box:active{
     background:rgba(53,138,235,1);
@@ -181,17 +182,4 @@
 }
 .tc-box-box2>p{
     margin-bottom: .18rem;
-}
-
-.dixian{
-    color: rgba(185,216,251,.43);
-    font-size: .2rem;
-    width: 90vw;
-    margin-left: 5vw;
-    padding: 2rem 0 .2rem 0;
-}
-.dixian>div{
-    width: 40%;
-    height: 1px;
-    background-color: rgba(185,216,251,.43);
 }
