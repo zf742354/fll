@@ -155,10 +155,17 @@
     color: #849db9;
     line-height: .45rem;
 }
-
-
-
-
-
-
-
+.dixian{
+    position: fixed;
+    bottom: .2rem;
+    color: rgba(185,216,251,.43);
+    font-size: .2rem;
+    width: 90vw;
+    margin-left: 5vw;
+    padding: 2rem 0 .2rem 0;
+}
+.dixian>div{
+    width: 40%;
+    height: 1px;
+    background-color: rgba(185,216,251,.43);
+}
