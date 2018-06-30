@@ -83,8 +83,7 @@ $(function(){
     });
 
     //跳转页面
-    $('.ewm').click(function(){
+    $('.index15').click(function(){
        window.location.href='../html/index15.html';
     });
-
 });

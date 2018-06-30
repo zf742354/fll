@@ -1,13 +1,12 @@
 $(function(){
 
     //第三页面
-    $(".index").click(function(){
+    //跳转
+    $(".index4").click(function(){
         setTimeout(function(){
             window.location.href="../html/index4.html";
         },1000);
-
     });
-
     //显示弹窗
     $('#lijizhuanfa').click(function(){
         $(".tc").removeClass('d-none');
@@ -17,6 +16,5 @@ $(function(){
     $('.x').click(function(){
         $('.tc').addClass('d-none');
         $('.foot-box2-img2').removeClass('zzz').addClass('d-none');
-
     });
 });
