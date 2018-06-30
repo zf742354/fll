@@ -27,19 +27,6 @@
     background: url(../image/hbbj.jpg);
     position: relative;
 }
-.bj-box{
-    position: absolute;
-    top: .2rem;
-    left: .2rem;
-}
-.bj-box>span{
-    font-size: .26rem;
-    color: white;
-}
-.zgyd{
-    height: .33rem;
-    width: .33rem;
-}
 .floor{
     height: .7rem;
     width: 2.26rem;
@@ -181,4 +168,8 @@
 .tc-box-box2>p{
     margin-bottom: .18rem;
 }
+
+
+
+
 
